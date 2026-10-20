@@ -41,7 +41,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 ai_client = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY else None
 
 MEDICAL_DISCLAIMER = (
-    "HealthMate.AI provides informational support, not a diagnosis "
+    "HealthBuddy.AI provides informational support, not a diagnosis "
     "or a substitute for a qualified healthcare professional. "
     "AI may make mistakes. Verify medical information with a clinician."
 )
